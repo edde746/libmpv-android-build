@@ -129,6 +129,7 @@ cpuflags=
 	--enable-decoder=pcm* \
 	--enable-decoder=dsd* \
 	--enable-decoder=dca \
+	--enable-decoder=truehd \
 	\
 	--enable-decoder=ssa \
 	--enable-decoder=ass \
@@ -143,6 +144,7 @@ cpuflags=
 	--enable-decoder=vplayer \
 	--enable-decoder=webvtt \
 	--enable-decoder=movtext \
+	--enable-decoder=pgssub \
 	\
 	--enable-demuxer=concat \
 	--enable-demuxer=data \
@@ -165,6 +167,7 @@ cpuflags=
 	--enable-demuxer=matroska \
 	--enable-demuxer=dash \
 	--enable-demuxer=webm_dash_manifest \
+	--enable-demuxer=sup \
 	\
 	--enable-demuxer=aac \
 	--enable-demuxer=ac3 \
@@ -218,7 +221,7 @@ cpuflags=
 	--enable-parser=mpegaudio \
 	--enable-parser=tak \
 	--enable-parser=vorbis \
- 	--enable-parser=dca \
+	--enable-parser=truehd \
 	\
 	--enable-filter=overlay \
 	--enable-filter=equalizer \
