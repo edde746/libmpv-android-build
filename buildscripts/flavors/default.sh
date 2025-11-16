@@ -225,6 +225,11 @@ cpuflags=
 	\
 	--enable-filter=overlay \
 	--enable-filter=equalizer \
+	--enable-filter=crop \
+	--enable-filter=scale \
+	--enable-filter=rotate \
+	--enable-filter=hflip \
+	--enable-filter=vflip \
 	\
 	--enable-protocol=async \
 	--enable-protocol=cache \
